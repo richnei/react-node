@@ -18,7 +18,7 @@ function App() {
         {videos.map((id, index) => {
           return (
             <a key={index} href={`https://youtube.com/watch?v=${id}`}>
-              <img src={`https://img.youtube.com/v1/${id}/0.jpg`}></img>
+              <img src={`https://img.youtube.com/vi/${id}/0.jpg`}></img>
             </a>
           );
         })}
